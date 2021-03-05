@@ -1,6 +1,0 @@
-stages:
-  train:
-    do:
-      cmd: jupyter nbconvert --execute titanic_dataset_ml.ipynb
-      outs:
-        - titanic.model
