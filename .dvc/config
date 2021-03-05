@@ -1,0 +1,5 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://titanic-dataset/
+    endpointurl = http://minio-service.kubeflow:9000
